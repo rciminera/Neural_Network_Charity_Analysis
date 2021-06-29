@@ -1,3 +1,6 @@
+
+<img src="https://github.com/rciminera/Neural_Network_Charity_Analysis/blob/main/Screenshots/nn_image.png" width = "800" >
+
 # Neural_Network_Charity_Analysis
 
 ## Overview
@@ -38,6 +41,9 @@ Using various modules from Tensor Flow along with Google Colab notebook the foll
 
 5. At 72.57% the target performance was not acheived.
 
+The link for the code for steps 1-5 above is: [AlphabetSoupCharity.ipnyb](https://github.com/rciminera/Neural_Network_Charity_Analysis/blob/main/Notebooks/AlphabetSoupCharity.ipynb)
+
+
 #### Optimizing the Model
 6. To optimize the model and increase performance a number of steps were taken to increase performance to above 75%:
 
@@ -46,7 +52,7 @@ Using various modules from Tensor Flow along with Google Colab notebook the foll
     ✓ Additional hidden layers were added  
     ✓ The activation function of hidden layers were changed for optimization. 
 
-
+The link for the code for step 6 above is: [AlphabetSoupCharity._Optimization.ipnyb](https://github.com/rciminera/Neural_Network_Charity_Analysis/blob/main/Notebooks/AlphabetSoupCharity_Optimization.ipynb)
 
 #### Checkpoints and Saving
 
@@ -56,6 +62,6 @@ For the base and optimization models, checkpoints were taken every 5 epochs and 
 
 Overall the various iterations of the model did not yield 75% as shown below.
 
-<img src="https://github.com/rciminera/Cryptocurrencies/blob/main/ScreenShots/crypto_df.png" width = "800" >
+<img src="https://github.com/rciminera/Neural_Network_Charity_Analysis/blob/main/Screenshots/nn_summary.png" width = "800" >
 
  Recommnedations for improving the accuracy of the outcome include further processing of the data as well as the structure of the model.  In addition, a beacuse of the tabular dataset, the Random Forest Model or other Deep Learning models should be explored.
