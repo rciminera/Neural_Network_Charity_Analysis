@@ -2,6 +2,7 @@
 <img src="https://github.com/rciminera/Neural_Network_Charity_Analysis/blob/main/Screenshots/nn_image.png" width = "800" >
 
 # Neural_Network_Charity_Analysis
+by Bob Ciminera
 
 ## Overview
 
@@ -39,13 +40,13 @@ Using various modules from Tensor Flow along with Google Colab notebook the foll
 #### Compiling, Training, and Evaluating the Model
 4. In the base neural network model, 110 neurons and 2 hidden layers were selected to support the 43 variables.  The number of neurons were selected based on a rule of 2 to 3 times the number of input variables.  In addition, the relu activation function was used for the inner layers and sigmoid was used for the output layer.  These functions were selected because of the binary nature of the model.
 
-5. At 72.57% the target performance was not acheived.
+5. At 72.57% the model performance did not acheived the greater than 75% target.
 
 The link for the code for steps 1-5 above is: [AlphabetSoupCharity.ipnyb](https://github.com/rciminera/Neural_Network_Charity_Analysis/blob/main/Notebooks/AlphabetSoupCharity.ipynb)
 
 
 #### Optimizing the Model
-6. To optimize the model and increase performance a number of steps were taken to increase performance to above 75%:
+6. To optimize the model and increase performance a number of steps were taken in 3 unsuccesful attempts to increase performance to above 75%:
 
     ✓ Noisy variables were removed from features  
     ✓ Additional neurons were added to the hidden layers.   
@@ -62,6 +63,8 @@ For the base and optimization models, checkpoints were taken every 5 epochs and 
 
 Overall the various iterations of the model did not yield 75% as shown below.
 
-<img src="https://github.com/rciminera/Neural_Network_Charity_Analysis/blob/main/Screenshots/nn_summary.png" width = "800" >
+<img src="https://github.com/rciminera/Neural_Network_Charity_Analysis/blob/main/Screenshots/nn_summary.png" width = "400" >
 
- Recommnedations for improving the accuracy of the outcome include further processing of the data as well as the structure of the model.  In addition, a beacuse of the tabular dataset, the Random Forest Model or other Deep Learning models should be explored.
+ Recommendations for improving the accuracy of the outcome include further pre-processing of the data as well as modifiying the structure of the model.  
+ 
+ In addition, a because of the tabular dataset, and the binary nature of the model, the Random Forest Model should be explored as an alternative.  The Random Forest Model has the added beneift of simplicity of setup and lower use of resources.  
