@@ -54,9 +54,8 @@ For the base and optimization models, checkpoints were taken every 5 epochs and 
 
 ## Summary
 
-Overall the various iterations of the model did not yiled 75% as shown below.
+Overall the various iterations of the model did not yield 75% as shown below.
 
 <img src="https://github.com/rciminera/Cryptocurrencies/blob/main/ScreenShots/crypto_df.png" width = "800" >
 
- Recommnedations for improving the accuracy of the outcome include further processing of the data as well as the structure of the model.  In addition, a Random Forest Model or other Deep Learning models should be explored.
-
+ Recommnedations for improving the accuracy of the outcome include further processing of the data as well as the structure of the model.  In addition, a beacuse of the tabular dataset, the Random Forest Model or other Deep Learning models should be explored.
