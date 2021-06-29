@@ -2,7 +2,9 @@
 
 ## Overview
 
- Explain the purpose of this analysis.
+The purpose of this analysis is to develop a model that will accurately predict sound investments for the Alphabet Soup foundation using neural networks as a potential solution.
+
+create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 
 ## Results
 
