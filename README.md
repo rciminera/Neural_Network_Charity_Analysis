@@ -61,7 +61,7 @@ For the base and optimization models, checkpoints were taken every 5 epochs and 
 
 ## Summary
 
-Overall the various iterations of the model did not yield 75% as shown below.
+Overall, despite various iterations of the model did not yield 75% as shown below.
 
 <img src="https://github.com/rciminera/Neural_Network_Charity_Analysis/blob/main/Screenshots/nn_summary.png" width = "400" >
 
